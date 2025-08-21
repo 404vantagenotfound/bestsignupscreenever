@@ -157,3 +157,31 @@ finalSubmit.addEventListener("click", () => {
   finalSubmit.textContent = "Loading...";
   finalSubmit.disabled = true;
 });
+
+
+// Example tiny dictionary (replace w/ full English dictionary for max pain)
+const dictionary = ["Apple", "Banana", "Chair", "Dog", "Elephant", "Zebra"];
+
+// Populate dropdowns with all dictionary words
+function populateDropdown(dropdown, words) {
+    dropdown.innerHTML = ""; // clear old options
+
+    // Add default "Select One"
+    const defaultOpt = document.createElement("option");
+    defaultOpt.value = "select";
+    defaultOpt.textContent = "Select One";
+    dropdown.appendChild(defaultOpt);
+
+    // Add every word
+    words.forEach(word => {
+        const opt = document.createElement("option");
+        opt.value = word;
+        opt.textContent = word;
+        dropdown.appendChild(opt);
+    });
+}
+
+// Call this on load
+populateDropdown(firstNameDropdown, dictionary);
+populateDropdown(lastNameDropdown, dictionary);
+
