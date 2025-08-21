@@ -160,7 +160,32 @@ finalSubmit.addEventListener("click", () => {
 
 
 // Example tiny dictionary (replace w/ full English dictionary for max pain)
-const dictionary = ["Apple", "Banana", "Chair", "Dog", "Elephant", "Zebra"];
+const dictionary = ["Liam","Olivia","Noah","Emma","Lucas","Ava","Mason","Sophia","Ethan","Isabella",
+  "Logan","Mia","Jacob","Charlotte","Alexander","Amelia","Michael","Harper","Daniel","Evelyn",
+  "Henry","Abigail","Jackson","Emily","Sebastian","Ella","Aiden","Scarlett","Matthew","Victoria",
+  "Joseph","Grace","Samuel","Chloe","David","Lily","Wyatt","Aria","Owen","Sofia",
+  "Gabriel","Penelope","Carter","Hannah","Jayden","Layla","Luke","Zoe","Isaac","Nora",
+  "Caleb","Riley","Nathan","Aubrey","Ryan","Camila","Dylan","Lillian","Christian","Eleanor",
+  "Hunter","Hazel","Jonathan","Ellie","Landon","Violet","Connor","Stella","Aaron","Aurora",
+  "Cameron","Lucy","Adrian","Julian","Paisley","Leo","Anna","Thomas","Natalie","Charles",
+  "Clara","Eli","Isaiah","Jordan","Adam","Brayden","Nicholas","Elena","Austin","Samantha",
+  "Christian","Leah","Zachary","Madeline","Dominic","Claire","Colton","Savannah","Ian","Audrey",
+  "Tristan","Caroline","Jason","Brooklyn","Jace","Kennedy","Miles","Skylar","Xavier","Camila",
+  "Bentley","Arianna","Hudson","Genesis","Grayson","Alice","Evan","Hailey","Lincoln","Sadie",
+  "Asher","Naomi","Leo","Ruby","Mateo","Eva","Micah","Vivian","Jaxon","Autumn","Bryson","Peyton","Smith","Johnson","Williams","Brown","Jones","Miller","Davis","Garcia","Rodriguez","Wilson",
+  "Martinez","Anderson","Taylor","Thomas","Hernandez","Moore","Martin","Jackson","Thompson","White",
+  "Lopez","Lee","Gonzalez","Harris","Clark","Lewis","Robinson","Walker","Perez","Hall",
+  "Young","Allen","Sanchez","Wright","King","Scott","Green","Baker","Adams","Nelson",
+  "Hill","Ramirez","Campbell","Mitchell","Roberts","Carter","Phillips","Evans","Turner","Torres",
+  "Parker","Collins","Edwards","Stewart","Flores","Morris","Nguyen","Murphy","Rivera","Cook",
+  "Rogers","Morgan","Peterson","Cooper","Reed","Bailey","Bell","Gomez","Kelly","Howard",
+  "Ward","Cox","Diaz","Richardson","Wood","Watson","Brooks","Bennett","Gray","James",
+  "Reyes","Cruz","Hughes","Price","Myers","Long","Foster","Sanders","Ross","Morales",
+  "Powell","Sullivan","Russell","Ortiz","Jenkins","Gutierrez","Perry","Butler","Barnes","Fisher",
+  "Henderson","Coleman","Simmons","Patterson","Jordan","Reynolds","Hamilton","Graham","Kim","Gonzales",
+  "Alexander","Ramos","Wallace","Griffin","West","Cole","Hayes","Chavez","Gibson","Bryant",
+  "Ellis","Stevens","Murray","Ford","Marshall","Owens","Mcdonald","Harrison","Ruiz","Kennedy",
+  "Wells","Alvarez","Woods","Mendoza","Castillo","Olson","Webb","Washington","Tucker","Freeman"];
 
 // Populate dropdowns with all dictionary words
 function populateDropdown(dropdown, words) {
