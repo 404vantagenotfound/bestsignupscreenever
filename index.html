@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <button id="sign-up-btn">Sign Up</button>
+    <div id="step-one" class="hidden">
+      <h2>Step 1: Enter Your Name</h2>
+      <div class="form-group">
+        <label for="first-name">First Name:</label>
+        <select id="first-name">
+          <option value="select">Select One</option>
+          <option value="dummy1">Dummy 1</option>
+          <option value="dummy2">Dummy 2</option>
+          <option value="dummy3">Dummy 3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name:</label>
+        <select id="last-name">
+          <option value="select">Select One</option>
+          <option value="dummy1">Dummy 1</option>
+          <option value="dummy2">Dummy 2</option>
+          <option value="dummy3">Dummy 3</option>
+        </select>
+      </div>
+      <br><br>
+      <button id="next-btn" disabled>Next</button>
+    </div>
+
+    <div id="step-two" class="hidden">
+      <h2>Step 2: Enter Your Phone Number</h2>
+      <label for="phone-slider">Phone Number:</label>
+      <input type="range" id="phone-slider" min="1" max="999999999999999" step="1" value="1">
+      <br>
+      <span id="phone-display">+1 (1)</span>
+      <br><br>
+      <button id="submit-btn" disabled>Submit</button>
+    </div>
+    <div id="step-three" class="hidden">
+      <h2>Step 3: Set Your Password</h2>
+      <label id="password-display" class="fake-input"> </label>
+      <div id="keyboard-container">
+        <div id="keyboard"></div>
+      </div>
+     
+
+      <br><br>
+      <p id="password-rules">
+        Password must be at least 8 characters, include 1 uppercase, 1 lowercase, and 1 special character.
+      </p>
+      <button id="final-submit" disabled>Finish</button>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
