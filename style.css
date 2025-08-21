@@ -1,0 +1,177 @@
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container to hold the sign-up button and the form */
+#container {
+    text-align: center;
+}
+
+/* Center the sign-up button */
+#sign-up-btn {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Step 1 form (hidden by default) */
+#step-one {
+    margin-top: 20px;
+    display: none;
+}
+
+/* Step 2 form (hidden by default) */
+#step-two {
+    margin-top: 20px;
+    display: none;
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
+
+/* Form group to group labels and dropdowns */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Align the dropdowns horizontally */
+.form-group {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Styling the Next button */
+#next-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cccccc;
+    color: #888888;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed; /* Make it clear that the button is disabled */
+}
+
+#next-btn:enabled {
+    background-color: #ff4500;
+    color: white;
+    cursor: pointer;
+}
+
+/* Styling the phone number slider */
+#phone-slider {
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* Styling the phone number display */
+#phone-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styling the submit button */
+#submit-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cccccc;
+    color: #888888;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed; /* Make it clear that the button is disabled */
+}
+
+#submit-btn:enabled {
+    background-color: #ff4500;
+    color: white;
+    cursor: pointer;
+}
+
+/* Fake input style */
+.fake-input {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: left;
+    font-size: 18px;
+    background: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Keyboard container with horizontal scroll */
+/* Keyboard container with fixed width + horizontal scroll */
+#keyboard-container {
+    width: 400px;           /* fixed width for the bar */
+    max-width: 100%;        /* so it shrinks on smaller screens */
+    overflow-x: auto;       /* enable horizontal scroll */
+    overflow-y: hidden;     /* no vertical scroll */
+    white-space: nowrap;    /* keep keys in one line */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+/* Individual keys */
+.key {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 2px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.key:hover {
+    background: #ddd;
+}
+/* Styling the finish button same as submit */
+#final-submit {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cccccc;
+    color: #888888;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+#final-submit:enabled {
+    background-color: #ff4500;
+    color: white;
+    cursor: pointer;
+}
+#password-rules {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
